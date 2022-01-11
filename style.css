@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+html{
+    font-size: 10px;
+}
+
+/* navbar */
+
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 10rem;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+    width: 100%;
+    background-color: #F7F9FE;
+}
+
+.brand-img img{
+    height: 5rem;
+}
+
+.nav-pages{
+    display: flex;
+    text-decoration: none;
+}
+
+.nav-pages p{
+    margin: 0rem 2rem 0rem 2rem;
+    font-size: 2rem;
+    color: #50658E;
+}
+
+.nav-pages a{
+    text-decoration: none;
+}
+
+.active{
+    font-weight: bold;
+}
+
+
+
+/* navbar end */
+
+/* home */
+
+.home-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20rem;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.desc-container{
+    width: 50rem;
+}
+
+.desc-container img{
+    height: 10rem;
+}
+
+.img-container img{
+    height: 50rem;
+}
+
+.desc-container p{
+    font-size: 2rem;
+    padding: 4rem 0rem 0rem 2rem;
+    color: #3d4b69;
+    line-height: 4rem;
+    text-align: justify;
+}
+
+#meter{
+    height: 6rem;
+    margin-left: 2rem;
+    margin-top: 5rem;
+}
+
+/* home end */
+
+/* about */
+
+.about-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18rem;
+}
+
+.about-img img{
+    height: 40rem;
+    margin: 0rem 10rem 0rem 10rem
+}
+
+.about-desc{
+    width: 55rem;
+}
+
+.about-head{
+    font-size: 1.5rem;
+    color: #f65858;
+    font-weight: bold;
+}
+
+.about-head2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 2rem 0rem 2rem 0rem
+}
+
+.para{
+    font-size: 2rem;
+    text-align: justify;
+    line-height: 3rem;
+}
+
+.para2{
+    font-size: 1.7rem;
+    text-align: justify;
+    line-height: 3rem;
+    margin-top: 2rem;
+    color: #2d313d;
+}
+
+
+/* about end */
+
+/* symptoms */
+
+.symptoms-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18rem;
+    margin-bottom: 5rem;
+}
+
+.symptoms-img img{
+    height: 45rem;
+    /* margin: 0rem 10rem 0rem 10rem */
+}
+
+.symptoms-desc{
+    width: 55rem;
+}
+
+.symptoms-head{
+    font-size: 1.5rem;
+    color: #f65858;
+    font-weight: bold;
+}
+
+.symptoms-head2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 2rem 0rem 2rem 0rem
+}
+
+.symptoms-para{
+    font-size: 1.7rem;
+    text-align: justify;
+    line-height: 3rem;
+    margin-top: 2rem;
+    color: #2d313d;
+}
+
+.symptoms-details{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.symptoms-details img{
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.symptoms-details p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+    margin-left: 2rem;
+    color: #2d313d;
+}
+
+.symptoms-para-head{
+    color: #1965ff;
+    font-weight: bold;
+}
+
+/* symptoms end*/
+
+/* Prevention */
+
+.prevention-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 18rem;
+    margin-bottom: 5rem;
+    background-image: url(img/background.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.prevention-img img{
+    height: 60rem;
+    margin: 0rem 10rem 0rem 0rem
+}
+
+.prevention-desc{
+    width: 55rem;
+}
+
+.prevention-head{
+    font-size: 1.5rem;
+    color: #f65858;
+    font-weight: bold;
+}
+
+.prevention-head2{
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 2rem 0rem 2rem 0rem
+}
+
+.prevention-para{
+    font-size: 1.7rem;
+    text-align: justify;
+    line-height: 3rem;
+    margin-top: 2rem;
+    color: #2d313d;
+}
+
+.prevention-details{
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.prevention-details img{
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.prevention-details p{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: justify;
+    margin-left: 2rem;
+    color: #2d313d;
+}
+
+.prevention-para-head{
+    color: #1965ff;
+    font-weight: bold;
+}
+
+/* Prevention end*/
+
+/* TREATMENT */
+
+.treatment-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14rem;
+    margin-bottom: 5rem;
+    background-image: url(img/background.png);
+    background-color: rgb(42, 85, 165);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 60rem;
+    transform: rotate(180deg);
+    flex-direction: row-reverse;
+}
+
+.treatment-div1{
+    transform: rotate(180deg);
+    width: 55rem;
+    margin-left: 10rem;
+}
+
+.treatment-head{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #73e3ff;
+    margin-bottom: 1rem;
+}
+
+.treatment-head2{
+    font-size: 4rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 2rem;
+}
+
+.treatment-para{
+    font-size: 1.7rem;
+    color: #73e3ff;
+    text-align: justify;
+}
+
+.treatment-para span{
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.treatment-div2{
+    height: 50rem;
+    width: 50rem;
+    transform: rotate(180deg);
+    background-color: #1b47a1;
+    border-radius: 2rem;
+    color: white;
+    padding: 0rem 5rem 0rem 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.treatment-div2-para{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.treatment-div2-para2{
+    font-size: 1.7rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.treatment-li{
+    font-size: 1.7rem;
+    text-align: justify;
+}
+
+/* TREATMENT end*/
+
+/* do & don't */
+
+.do-container{
+    margin-top: 12rem;
+    height: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.do-head{
+    color: #1965ff;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.do-head2{
+    color: #50658e;
+    font-size: 5rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.do-para{
+    color: #50658e;
+    font-size: 1.7rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    width: 80rem;
+}
+
+.do-container img{
+    width: 130rem;
+}
+
+.do-bg{
+    background-color: #f7f9fe;
+}
+
+/* do & don't end */
